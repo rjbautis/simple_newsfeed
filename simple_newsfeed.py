@@ -1,6 +1,6 @@
 ''' 
 Created by Ryan Bautista on 12/29/16.
-simple_newsfeed.py is powered by NewsAPI
+simple_newsfeed.py is powered by NewsAPI: https://newsapi.org
 All rights reserved
 
 '''
