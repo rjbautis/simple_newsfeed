@@ -45,9 +45,6 @@ r = requests.get(url)
 
 parsed_json = json.loads(r.text)  # turn JSON text into readable dictionary 
 
-print(parsed_json)
-print(len(parsed_json['articles']))
-
 for i in range(0, len(parsed_json['articles'])):
     print()
     headline = parsed_json['articles'][i]['title']
