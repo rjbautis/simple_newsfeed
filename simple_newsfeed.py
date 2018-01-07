@@ -8,9 +8,10 @@ All rights reserved
 import requests
 import json
 import random
+import secrets
 from sources import sources_dict
 
-your_api_key = '5f8c9be7dc664fa4a3ee8311ce5322b6'
+your_api_key = secrets.api_key
 
 print("Find and read today's top headlines from 70 sources!\nFor example, you can choose from", end=' ')
 
